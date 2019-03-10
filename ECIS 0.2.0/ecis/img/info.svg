@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <circle cx="50" cy="50" r="50" style="fill:#005597;" />
+    <circle cx="50" cy="20" r="5" style="fill:white;" />
+    <line x1="50" y1="40" x2="50" y2="80" style="stroke-linecap:round; stroke:white; stroke-width:10;" />
+</svg>

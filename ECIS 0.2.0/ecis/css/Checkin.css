@@ -1,0 +1,45 @@
+#student-id__input {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 14pt;
+}
+#msg-area {
+    margin-top: 12pt;
+    margin-left: 10%;
+    width: 80%;
+}
+
+select {
+    height: 22pt;
+    font-size: 11pt;
+    border: solid 1px #c8c8c8;
+    border-radius: 3pt;
+    outline: none;
+}
+select:active {
+    border-color: #005597;
+}
+
+#info-area {
+    margin-top: 12pt;
+    margin-left: 10%;
+    padding: 6pt;
+    width: 80%;
+    border: solid 1px #c8c8c8;
+    border-radius: 3pt;
+}
+#info-area__table{
+    margin-top: 5pt;
+}
+#info-area__emphasize__title {
+    margin-top: 20pt;
+    font-size: 20pt;
+    text-align: center;
+}
+#info-area__emphasize__content {
+    margin-top: 10pt;
+    font-size: 60pt;
+    color: #18194f;
+    text-align: center;
+}

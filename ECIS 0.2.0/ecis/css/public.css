@@ -1,0 +1,128 @@
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Droid Sans', 'DejaVu Sans', 'Microsoft Yahei', sans-serif;
+    font-size: 12pt;
+    color: #4a4a4a;
+}
+::selection {
+    background-color: #b32b76;
+    color: white;
+}
+
+h1 {
+    line-height: 2;
+    text-align: center;
+    color: #18194f;
+    font-weight: normal;
+}
+h2 {
+    line-height: 2;
+    color: #18194f;
+    border-bottom: solid 1px #c8c8c8;
+    font-weight: normal;
+}
+h3, h4, h5 {
+    line-height: 2;
+    color: #18194f;   
+}
+
+a {
+    color: #005597;
+}
+a:visited {
+    color: #b32b76;
+}
+
+
+
+.main-area {
+    position: relative;
+    top: 8%;
+    left: 20%;
+    width: 78%;
+}
+
+
+table {
+    border: solid 1px white;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+tbody tr {
+    background-color: #e1f2ff
+}
+tbody tr:nth-child(2n + 1) {
+    background-color: #fff4fa
+}
+td {
+    padding: 4pt 10pt 4pt 10pt;
+}
+thead, th {
+    background-color: #005597;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    line-height: 2;
+    padding: 0px 10pt 0px 10pt;
+    font-family: inherit;
+    font-size: 12pt;
+    color: white;
+    background-color: #005597;
+    outline: none;
+    border: none;
+    border-radius: 3pt;
+    cursor: pointer;
+}
+.button:active {
+    background-color: #18194f;
+}
+.button--prime {
+    background-color: #b32b76;
+}
+.button--prime:active {
+    background-color: #d6318c;
+}
+.button--second {
+    background-color: #2f8373;
+}
+.button--second:active {
+    background-color: #38a08d;
+}
+
+input {
+    line-height: 2;
+    font-size: 11pt;
+    font-family: inherit;
+    border: solid 1px #c8c8c8;
+    border-radius: 3pt;
+    outline: none;
+    padding: 0px 5pt 0px 5pt;
+}
+input:focus, textarea:focus {
+    border-color: #005597;
+}
+textarea {
+    line-height: 1.5;
+    font-size: 11pt;
+    font-family: inherit;
+    border: solid 1px #c8c8c8;
+    border-radius: 3pt;
+    outline: none;
+}
+
+
+
+/*#559977*/
